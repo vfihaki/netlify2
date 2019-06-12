@@ -1,0 +1,24 @@
+{
+  "name": "netlify2",
+  "version": "1.0.0",
+  "description": "Assignment Mark:",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfihaki/netlify2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vfihaki/netlify2/issues"
+  },
+  "homepage": "https://github.com/vfihaki/netlify2#readme"
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation ">
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="/Home.html">
+                    <img src="/Images/Beverage-Coffee-02.png" width="40" height="40">
+                  </a>
+                </div>
+                  <div class="navbar-start">
+                  </div>
+              
+                  <div class="navbar-end is-dark">
+                    <div class="navbar-item">
+                      <div class="buttons">
+                            <a class="button is-dark" href="https://www.facebook.com/">
+                                <figure class="image is-32x32">
+                                    <img class="is-rounded" src="/Images/Facebook Round.png">
+                                </figure>
+                            </a>
+                            <a class="button is-dark" href="https://twitter.com/">
+                                <figure class="image is-32x32">
+                                    <img class="is-rounded" src="/Images/Twitter round.png">
+                                </figure>
+                            </a>
+                            <a class="button is-dark" href="https://www.instagram.com/">
+                                <figure class="image is-32x32">
+                                    <img class="is-rounded" src="/Images/Instagram round social media icon free.png">
+                                </figure>
+                            </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+    <section class="hero is-small has-background-yellow">
+            <div class="column has-background-yellow">
+            <img src="/Images/Main.png" alt="cat03">
+            </div>
+    </section>
+          <div class="columns has-bg-img">
+            <div class="column column is-yellow">
+        
+        
+            </div>
+        <div class="column column is-four-fifths ">
+            <br>
+                <section class="columns column is-gap is-centered ">
+                        <div class="buttons ">
+                            <nav class="navbar" role="navigation" aria-label="main navigation">
+                                <div class="navbar-brand">
+        
+                                    <a role="button" class="navbar-burger burger is-bold" aria-label="menu" aria-expanded="false"
+                                        data-target="navbarBasicExample">
+                                        <span aria-hidden="true"></span>
+                                        <span aria-hidden="true"></span>
+                                        <span aria-hidden="true"></span>
+                                    </a>
+                                </div>
+        
+                                <div id="navbarBasicExample" class="navbar-menu">
+                                        <div class="navbar-start">
+                                                <a class="button is-large is-warning has-font-nav" href="/Home.html">HOME
+                                                </a>
+                                                <a class="button is-large is-warning has-font-nav" href="/About.html">ABOUT US
+                                                </a>
+                                                <a class="button is-large is-warning has-font-nav" href="/Contact.html">CONTACT US
+                                                </a>
+                                                <a class="button is-large is-warning has-font-nav" href="/PhotoGallery.html">PHOTO GALLERY
+                                                </a>
+                                                <a class="button is-large is-warning has-font-nav" href="/Feedback&Rating.html">FEEDBACK & RATING
+                                                </a>
+                                                <a class="button is-large is-warning has-font-nav" href="/Map&Direction.html">MAP & DIRECTION
+                                                </a>
+                                            </div>
+                                </div>
+                            </nav>
+                    </section>
+                    <section class="columns">
+                        <div class="container">
+                            <div class="column">
+                                <figure class="image 64x64 is-centered">
+                                    <img src="/Images/about.jpg" alt="cat01">
+                                </figure>
+                            </div>
+                        </div>
+                        </section>
+                            
+                                <div class="columns is-mobile">
+                                        <div class="column is-three-fifths is-offset-one-fifth">
+                                            <div class="container">
+                                                <h1 class="title  is-large has-font-header ">
+                                                    <br>
+                                                  About Us
+                                                </h1>
+                                                <h2 class="subtitle has-font-body">
+                                                        <br><br>
+                                                        Located at Toi Ohomai Institute Of Technology Windermere Campus, the Break Time Café features beautiful and wonderful dining atmosphere! Serving great drinks and food!
+                                                        The Break Time Café is open to public but basically for students and staff in campus.<br><br> 
+                                                        We open Mondays to Fridays from 9am until 3pm and close in the weekends. Come along and spend your lunch breaks with us and enjoy your favourite food and drinks.<br><br> 
+                                                        Relax on those comfy sofa or entertain yourself with your mates with a game of pool table or table tennis or some board games available for you. 
+                                                        
+                                                </h2>
+                                              </div>
+                                        </div>
+                                
+                                      </div>    
+                            
+        </div>
+        <div class="column is-yellow">
+
+
+        </div>
+    </div>
+          <script>
+              document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Check if there are any navbar burgers
+if ($navbarBurgers.length > 0) {
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+          </script>
+           <footer class="footer is-brown">
+                <div class="container ">
+                        <p class="column has-text-right has-text-white">
+                            © 2019 Break Time
+                        </p>
+                    </div>
+              </footer>
+          
+</body>
+
+</html>
